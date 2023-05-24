@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background: #ffffff url("../imagenes/fondo1.jpeg");
+    font-size: 20px ;
+    font-family:'praysire';
+    text-align: center;
+    line-height: 39px;
+    box-shadow: #010000;
+    
+}
+
+main{
+    box-shadow: 10 10 15px #ff006a;
+    border-radius: 40px;
+    width: 1200px;
+    margin: 30px auto;
+    background-color: #ffffffcd;
+    padding: 30px;
+}
+
+header{
+    text-align: center;
+}
+
+header img{
+    float:left;
+    margin-block-start: 50px;
+    margin-left: 100px;
+    border-radius: 30%;
+}
+
+header h1{
+    font-size: 65px;
+    padding: 0px 0px;
+    text-align: center;
+    float:left;
+    margin: 0 30px 30px 30px;
+    margin-block-start: 120px;
+}
+
+nav{
+    margin: 20px;
+}
+
+ul li{
+    display:inline;
+    padding: 3 30px;
+}
+
+ul li a{
+    text-decoration:dotted;
+    background-color: #f412bbad;
+    color: #000000;
+    padding: 9px 15px;
+    border-radius: 30px;
+    box-shadow: 3px 4px 6px #f3085e;
+}
+
+ul li a:hover{
+    background-color: #1bb4c8;
+}
+
+section{
+    background-size:contain;
+    border: 6px double #ef0ed5a7;
+    border-radius: 50px;
+    padding: 20px;
+    margin-bottom:50px;
+}
+
+p{
+    color:#271bc8;
+    padding: 30px 0;
+}
+
+b{
+    color: #ff00aa;
+}
+
+article{
+    text-align:right;
+    float: right;
+}
+
+article img{
+    width: 450px;
+    border-radius: 190px;
+}
+
+aside{
+    text-align:center;
+}
+
+aside a{
+    text-decoration:dotted;
+    background-color: #f412bbad;
+    color: #000000;
+    padding: 1px 10px;
+    border-radius: 30px;
+    box-shadow: 3px 4px 6px #f3085e;
+}
+
+aside a:hover{
+    background-color:#1bb4c8;
+    color: #000000;
+}
+
+footer p{
+    text-align: center;
+    width: 100%;
+}
+
+/* IDENTIFICADORES */
+
+#parrMarco{
+    border: 4px double #ef0ed5a7;
+    border-radius: 35px;
+    padding: 20px;
+    background-color: #66dada6b;
+    color: #010000;
+    float:left;
+    width: 55%;
+    margin: 100px 0 0 0;
+}
+
+#textFooter{
+    font-size: 100px;
+}
+
+/* CLASES */
+.colorFuente{
+    color: #271bc8;
+}
+
+.clear{
+    clear:both;
+}
+
